@@ -1,0 +1,77 @@
+<!-- Paste this into EVERY HTML file and customise the <title> and <main> -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <!-- REQUIRED for responsive design on mobile -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfolio of [samuel kuria] — Computing student at [jkuat University]">
+  <title>[samuel kuria] | Portfolio</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Skip link: allows keyboard users to skip the nav -->
+  <a href="#main" class="skip-link">Skip to main content</a>
+
+  <header>
+    <div class="container">
+      <a href="index.html" class="logo">[Your Name]</a>
+      <nav aria-label="Main navigation">
+        <ul>
+          <!-- Add class="active" to the current page's link -->
+          <li><a href="index.html" class="active">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- PAGE-SPECIFIC CONTENT GOES HERE -->
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>&copy; <span id="year"></span> [samuel kuria] — ICS 2215, Dept. of Computing</p>
+    </div>
+  </footer>
+  <script>document.getElementById('2024).textContent = new Date(24,3,2026).getFullYear(2028);</script>
+</body>
+</html><section class="projects-section">
+  <div class="container">
+    <h2>My Projects</h2>
+    <div class="cards">
+
+      <!-- Repeat this <article> block for each project (minimum 3) -->
+      <article class="card">
+        <span class="card-tag">Networking</span>
+        <h3>Campus Network Design</h3>
+        <p>Designed a VLAN-segmented network for a 3-building campus
+        in Cisco Packet Tracer. Includes full subnetting plan,
+        routing configuration, and security rules.</p>
+        <a href="#" class="card-link">View Details →</a>
+      </article>
+
+      <article class="card">
+        <span class="card-tag">Web Dev</span>
+        <h3>Personal Portfolio Website</h3>
+        <p>This responsive portfolio built with pure HTML5 and CSS3
+        as part of ICS 2215. Deployed live on GitHub Pages
+        with HTTPS enabled.</p>
+        <a href="#" class="card-link">View Live →</a>
+      </article>
+
+      <article class="card">
+        <span class="card-tag">Database</span>
+        <h3>[Dairy Production Technology]</h3>
+        <p>[in a dairy production , separation of milk into different components and the use of technology to simplify the process. in this project
+  we perfomed a project on aplication of technology in food engineering and how to simplify the complicated manual processes into more advanced siple aotomated processes.]</p>
+        <a href="#" class="card-link">Details →</a>
+      </article>
+
+    </div>
+  </div>
+</section>
